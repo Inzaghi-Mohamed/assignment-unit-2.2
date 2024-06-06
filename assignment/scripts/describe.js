@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared a varable (name) and we asssigned it to string ("Dane")
+// We have conditional statement which checks whether the variable stores the name "Mary"
+// if that is true , it is going to print "Hi, Mary!"
+// if the condition above is false, then print "How do you do "
+
 
 //CODE
 /*
@@ -45,10 +46,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared a variable (secret) without assigning it anything
+// Declared a variable (code) and assigned it to 123
+// Created a conditional statement that check whether value store in varible (code) is equal to 123
+// Inside the if statement, we assigned the variable (secret) to 'super' and we multiplied the value of the varibale (code)
+// Created another conditional statement that checks whether the new value of the variable(code) is greater than 250
+// And if that is true, it will print the value re-assigned to varible (secret) which is 'duper'
+// Lastly, we wrote (console.log) to checks which conditional statement would be executed.
+// And in this case, it will print 'super' since the first conditional is true, thus it will not move to the next conditiona; statement.
 
 //CODE
 /*
