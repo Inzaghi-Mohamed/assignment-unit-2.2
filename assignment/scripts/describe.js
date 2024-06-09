@@ -53,7 +53,7 @@ if (name === 'Mary') {
 // Created another conditional statement that checks whether the new value of the variable(code) is greater than 250
 // And if that is true, it will print the value re-assigned to varible (secret) which is 'duper'
 // Lastly, we wrote (console.log) to checks which conditional statement would be executed.
-// And in this case, it will print 'super' since the first conditional is true, thus it will not move to the next conditiona; statement.
+// And in this case, it will print 'super' since the first conditional is true, thus it will not move to the next conditional statement.
 
 //CODE
 /*
@@ -75,10 +75,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true as a boolen
+// We make a variable called age and set it to 34 as a number
+// We make a variable called zip and set it to 55407 as a number
+// We check whether isStudent variable is true and zip variable is greater than 80000
+// if the condition above is met, it will print 'You're a student on the West Coast!'
+// Again, we check whether isStudent is false or age is less than 30
+// if the condition is met, it will print 'What are your hobbies?'
+// Again, we check whether isStudent variable is true
+// if the codition is true, it wiil print 'Welcome to Prime!'
+// Finally, if all the conditions above are not met, it will print 'How about the weather?'
 
 //CODE
 /*
@@ -132,9 +138,12 @@ if (number >= 2) {
 
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+
+// FIX -- the instruction below is misleading since in the code, we only re-assigned colorOne to 'purple' if mix is equal to true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX-- Wrong assignment to colorOne and colorTwo, we are supposed to swap their values, such that colorOne is assigned to 'blue' and colorTwo to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -152,6 +161,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX-- We check if temp is higher than 39 OR if time is greater or equal to 4, 
+// But the instruction used AND instead of OR 
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,9 +173,14 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// FIX-- It is, so we console.log 'no entry'...since minAge is equal to age.
+
 /*
 let age = 21;
 const minAge = 21;
+
+
+// FIX-- We check whether minAge is less than or equal to age, but the instruction says otherwise!
 
 if(minAge <= age) {
   console.log('no entry');
